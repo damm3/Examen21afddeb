@@ -40,9 +40,9 @@ public class Autotest {
 
         for (int i = 0; i < 30; i++) {
             if(correctas[i].equals(respuestas[i])){
-                System.out.println("   ");
+                System.out.print("   ");
             } else {
-                System.out.println(" " + correctas[i] + " ");
+                System.out.print(" " + correctas[i] + " ");
             }
         }
     }
